@@ -3596,3 +3596,231 @@ Started GET "/assets/maps/icons/blue-dot.png" for 158.97.129.17 at 2015-10-26 13
 Started GET "/assets/maps/icons/balloon-shadow.png" for 158.97.129.17 at 2015-10-26 13:02:25 +0000
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/locations/convex_hull" for 158.97.129.17 at 2015-10-26 13:40:45 +0000
+Processing by LocationsController#convex_hull as HTML
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."name" = 'alfredo_house' LIMIT 1
+  [1m[36mLocation Load (0.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.3ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."id" IN (31.817894, -116.596892, 10) LIMIT 1
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" IN (31.871267, -116.662703, 2) LIMIT 1[0m
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."id" IN (31.87385, -116.62773, 12) LIMIT 1
+  [1m[36mLocation Load (0.2ms)[0m  [1mSELECT "locations".* FROM "locations" WHERE "locations"."id" IN (31.872079, -116.619798, 3) LIMIT 1[0m
+  [1m[35mLocation Load (0.2ms)[0m  SELECT "locations".* FROM "locations" WHERE "locations"."id" IN (31.825408, -116.59421, 1) LIMIT 1
+  Rendered locations/convex_hull.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 77ms (Views: 12.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:45 +0000
+
+
+Started GET "/assets/locations.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:45 +0000
+
+
+Started GET "/assets/maps/theme/default/style.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:45 +0000
+
+
+Started GET "/assets/routes.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:46 +0000
+
+
+Started GET "/assets/users.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:46 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:46 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:46 +0000
+
+
+Started GET "/locations" for 158.97.129.17 at 2015-10-26 13:40:54 +0000
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_locations_index_html_haml__2855852583262895478_31402100 at /home/ubuntu/workspace/app/views/locations/index.html.haml:46)
+  Rendered locations/index.html.haml within layouts/application (6.9ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/locations.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:54 +0000
+
+
+Started GET "/assets/users.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:54 +0000
+
+
+Started GET "/assets/routes.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:54 +0000
+
+
+Started GET "/assets/maps/theme/default/style.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:54 +0000
+
+
+Started GET "/assets/maps/locations.js" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/maps/OpenLayers.js" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/maps/theme/default/style.css" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/maps/icons/blue-dot.png" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/maps/img/layer-switcher-maximize.png" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/maps/img/layer-switcher-minimize.png" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/assets/maps/icons/balloon-shadow.png" for 158.97.129.17 at 2015-10-26 13:40:55 +0000
+
+
+Started GET "/routes/users" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+Processing by RoutesController#users as HTML
+  [1m[35mPerson Load (0.3ms)[0m  SELECT "people".* FROM "people"
+  Rendered routes/users.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 36ms (Views: 26.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/maps/theme/default/style.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started GET "/assets/routes.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started GET "/assets/locations.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started GET "/assets/users.css?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 158.97.129.17 at 2015-10-26 13:40:58 +0000
+
+
+Started POST "/routes/usersmap" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+Processing by RoutesController#usersmap as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jWjJOseK/xnKs9UzrOeb4GGgWr6kaOrmXYu39WuMtZE=", "us_ids"=>["1"], "commit"=>"Map"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSample Load (0.5ms)[0m  SELECT "samples".* FROM "samples" WHERE "samples"."person_id" = ?  [["person_id", 1]]
+  Rendered routes/usersmap.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 12.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/users.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/routes.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/maps/theme/default/style.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/locations.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/maps/OpenLayers.js" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/maps/locations.js" for 158.97.129.17 at 2015-10-26 13:41:02 +0000
+
+
+Started GET "/assets/maps/theme/default/style.css" for 158.97.129.17 at 2015-10-26 13:41:03 +0000
+
+
+Started GET "/assets/maps/img/layer-switcher-minimize.png" for 158.97.129.17 at 2015-10-26 13:41:03 +0000
+
+
+Started GET "/assets/maps/img/layer-switcher-maximize.png" for 158.97.129.17 at 2015-10-26 13:41:03 +0000
+
+
+Started GET "/assets/maps/icons/balloon-shadow.png" for 158.97.129.17 at 2015-10-26 13:41:03 +0000
+
+
+Started GET "/assets/maps/icons/blue-dot.png" for 158.97.129.17 at 2015-10-26 13:41:03 +0000
+
+
+Started GET "/locations" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_locations_index_html_haml__2855852583262895478_31402100 at /home/ubuntu/workspace/app/views/locations/index.html.haml:46)
+  Rendered locations/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 19ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/maps/theme/default/style.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/locations.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/routes.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/users.css?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/maps/OpenLayers.js" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/maps/locations.js" for 158.97.129.17 at 2015-10-26 13:41:05 +0000
+
+
+Started GET "/assets/maps/theme/default/style.css" for 158.97.129.17 at 2015-10-26 13:41:06 +0000
+
+
+Started GET "/assets/maps/img/layer-switcher-maximize.png" for 158.97.129.17 at 2015-10-26 13:41:06 +0000
+
+
+Started GET "/assets/maps/img/layer-switcher-minimize.png" for 158.97.129.17 at 2015-10-26 13:41:06 +0000
+
+
+Started GET "/assets/maps/icons/balloon-shadow.png" for 158.97.129.17 at 2015-10-26 13:41:06 +0000
+
+
+Started GET "/assets/maps/icons/blue-dot.png" for 158.97.129.17 at 2015-10-26 13:41:06 +0000
