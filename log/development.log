@@ -3594,3 +3594,5 @@ Started GET "/assets/maps/icons/blue-dot.png" for 158.97.129.17 at 2015-10-26 13
 
 
 Started GET "/assets/maps/icons/balloon-shadow.png" for 158.97.129.17 at 2015-10-26 13:02:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
